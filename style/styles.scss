@@ -55,26 +55,34 @@ header{
 .sec1{
     display: none;
     transform: translateY(0) scale(1);
+    background-color: #191d2b;
 }
 .sec2{
     display: none;
     transform: translateY(0) scale(1);
+    background-color: slateblue;
 }
 .sec3{
     display: none;
     transform: translateY(0) scale(1);
+    background-color: rgb(146, 205, 90)
+
 }
 .sec4{
     display: none;
     transform: translateY(0) scale(1);
+    background-color: green;
 }
 .sec5{
     display: none;
     transform: translateY(0) scale(1);
 }
+.active{
+    display: block;
+}
 
-// conterolls
-.controlls{
+//controlls
+.controlls {
     position: fixed;
     // align-items: center;
     z-index: 10;
